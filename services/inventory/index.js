@@ -25,7 +25,7 @@ server.addService(inventoryProto.InventoryService.service, {
             null,
             products.find((product) => product.id == payload.request.id)
         );
-    },
+    }
 });
 
 
